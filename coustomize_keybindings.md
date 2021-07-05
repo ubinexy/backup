@@ -34,3 +34,15 @@ if [[ "$TERMINAL_EMULATOR" == "JetBrains-JediTerm" ]]; then
   bindkey -s "≥" "^[."  # Option-.
 fi
 ```
+
+
+## VSCode
+
+setting.json 
+
+``` json
+{
+    ...
+    "terminal.integrated.macOptionIsMeta": true
+}
+```
