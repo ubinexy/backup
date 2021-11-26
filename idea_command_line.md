@@ -13,9 +13,10 @@ else
 fi
 ```
 
-添加执行权限，放到 /usr/local/bin
+加x执行权限，放到 /usr/local/bin
 
 usage:
 
-idea [dir name_of_target_project]
-
+``` bash
+$ idea [dir name_of_target_project]
+```
