@@ -3,11 +3,14 @@
 ``` bash
 #!/bin/bash
 
-PROJECTS_DIR="..."
 if [ $# == 1 ];
 then
-    matched_path=$(find -L ${PROJECTS_DIR} -maxdepth 1 -type d -iname "*$1*" -print0)
-    open -na "Intellij IDEA.app" --args "$matched_path"
+    if [ -e $1 ]; then
+        open -na "Intellij IDEA.app" --args "$1"    
+    else
+        get_path_from_recents=$(find -L ${HOME}/TW/psa -maxdepth 1 -type d -iname "*$1*" -print0)
+        open -na "Intellij IDEA.app" --args "$get_path_from_recents"
+    fi
 else
     open -na "Intellij IDEA.app" --args "$@"
 fi
@@ -18,5 +21,5 @@ fi
 usage:
 
 ``` bash
-$ idea [dir name_of_target_project]
+$ idea [dir_name_of_target_project or target_project_path]
 ```
