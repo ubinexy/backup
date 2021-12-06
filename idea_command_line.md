@@ -3,7 +3,7 @@
 ``` bash
 #!/bin/bash
 
-$PROJECT_DIRS="..."
+PROJECT_DIRS="..."
 if [ $# == 1 ];
 then
     if [ -e $1 ]; then
