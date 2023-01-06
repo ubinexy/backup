@@ -1,5 +1,14 @@
 ## Software
 
+Homebrew:
+
+```
+xcode-select --install
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+
+Others:
+
 ```
 $ brew install --cask google-chrome 
 $ brew install --cask zoom 
