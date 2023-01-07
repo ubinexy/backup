@@ -49,3 +49,12 @@ setting.json
     "terminal.integrated.macOptionIsMeta": true
 }
 ```
+
+## bash macro
+
+.inputrc
+
+```
+"\C-xP": print-last-kbd-macro
+```
+
