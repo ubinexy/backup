@@ -27,13 +27,10 @@ create ~/Library/KeyBindings/DefaultKeyBinding.dict
 ...
 
 # Custom key binding
-bindkey -s "^V" "^A tldr ^J"
+# bindkey -s "^V" "^A tldr ^J"
 
 # IDE embedded terminal  
 if [[ "$TERMINAL_EMULATOR" == "JetBrains-JediTerm" ]]; then
-  bindkey -s "∫" "^[b"  # Option-b
-  bindkey -s "ƒ" "^[f"  # Option-f
-  bindkey -s "∂" "^[d"  # Option-d
   bindkey -s "≥" "^[."  # Option-.
 fi
 ```
@@ -50,7 +47,7 @@ setting.json
 }
 ```
 
-## bash macro
+## Bash 
 
 .inputrc
 
