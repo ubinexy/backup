@@ -12,7 +12,7 @@ create ~/Library/KeyBindings/DefaultKeyBinding.dict
     "∂"         = ("setMark:", "moveWordForward:", "deleteToMark:");             /* M-d          Delete word forward */
     "^w"        = ("setMark:", "moveWordBackward:", "deleteToMark:");            /* Ctrl-w       Delete word backward */
     "^y"        = "yankAndSelect:";                                              /* Ctrl-y       Yank:*/
-    "^-"        = "redo:";			                                             /* Ctrl--       Redo:*/
+    "^-"        = "redo:";                                                       /* Ctrl--       Redo:*/
     "^u"        = "deleteToBeginningOfLine:";                                    /* Ctrl-k       Delete To Line Beginning */
     "^k"        = "deleteToEndOfLine:";
     "^p"        = "moveUp:";
