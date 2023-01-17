@@ -31,6 +31,9 @@ create ~/Library/KeyBindings/DefaultKeyBinding.dict
 
 # IDE embedded terminal  
 if [[ "$TERMINAL_EMULATOR" == "JetBrains-JediTerm" ]]; then
+  bindkey -s "∫" "^[b"  # Option-b
+  bindkey -s "ƒ" "^[f"  # Option-f
+  bindkey -s "∂" "^[d"  # Option-d
   bindkey -s "≥" "^[."  # Option-.
 fi
 ```
