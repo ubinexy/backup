@@ -24,6 +24,8 @@ $ brew install --cask 1password
 $ brew install --cask intellij-idea 
 $ brew install --cask postman
 $ brew install --cask clipy
+$ brew install --cask visual-studio-code
+$ brew install --cask keycastr
 ```
 
 App store
